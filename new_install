@@ -1,0 +1,6 @@
+c5.large
+
+create two voluees
+create
+mount /data/nix
+mount /nix    # to a second program. 
