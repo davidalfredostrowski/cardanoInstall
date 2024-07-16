@@ -4,3 +4,10 @@ create two voluees
 create
 mount /data/nix
 mount /nix    # to a second program. 
+
+
+
+
+
+
+https://discourse.nixos.org/t/getting-around-no-symlink-policy/19712/4
