@@ -1,0 +1,394 @@
+https://plutus-pioneer-program.readthedocs.io/en/latest/alonzo/aws_node_setup.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       error: 1 dependencies of derivation '/nix/store/ws9syj50wdb9a061q2nap3v4715l0alz-haskell-project-plan-to-nix-pkgs.drv' failed to build
+[270 of 270] Compiling Main             ( utils/ghc-cabal/Main.hs, bootstrapping/Main.o )
+Linking utils/ghc-cabal/dist/build/tmp/ghc-cabal ...
+utils/genprimopcode/ghc.mk:19: utils/genprimopcode/dist/package-data.mk: No such file or directory
+make[1]: *** [utils/ghc-cabal/ghc.mk:56: utils/ghc-cabal/dist/build/tmp/ghc-cabal] Killed
+make[1]: *** Deleting file 'utils/ghc-cabal/dist/build/tmp/ghc-cabal'
+make: *** [Makefile:123: all] Error 2
+error: builder for '/nix/store/f37wf3x27g9l1qx9y2ji1kzqhj7rjjs8-ghc-8.6.5.drv' failed with exit code 2
+error: 1 dependencies of derivation '/nix/store/z3iic9hmwnqmny5p8zj5nrpq49irp18q-ghc-8.10.5-configured-src.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/x98kmx4v7m2c0f9c9vcxj5cs4aw4jk9w-ghc-8.10.5.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/hjzncsh3dd7hf0ll8wrny5937ynziq49-Cabal-lib-Cabal-3.4.0.0-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/zbjm4xjw133cxrlyv878w02lij6a9x26-Cabal-lib-Cabal-3.4.0.0-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/xjlj4wcnv0shxk15flrnmfxmm9millgd-Glob-lib-Glob-0.10.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/6s43pgw234bcrdgplkrikksv0r3fqqn5-HTTP-lib-HTTP-4000.3.16-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/d4klgjyyvmih89wicn8l9g8yv6akrm8a-StateVar-lib-StateVar-1.2.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/kq1gw5nvi8f42v15gj8ikl73y0386jg3-aeson-lib-aeson-1.5.6.0-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/pjw3zif7jcma6nbvcfv9db5gdk33vck5-aeson-pretty-lib-aeson-pretty-0.8.8-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/wgjr0sb76l1vzi9gwrb2gdjrhyggh5qn-algebraic-graphs-lib-algebraic-graphs-0.5-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/lmwrdgw7r0lxlg2x6z6lh476i31zz7mp-ansi-terminal-lib-ansi-terminal-0.11-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/bgsp1jf3mnkrhq6dyb1r89bsq4vvsk63-ansi-wl-pprint-lib-ansi-wl-pprint-0.6.9-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/99mfr6m2kspv7i1z4f2yk9ikd6afzz67-appar-lib-appar-0.1.8-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/kqia6bc9ylnqkqw0jfqni13hz3hr2jwc-asn1-encoding-lib-asn1-encoding-0.9.6-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/l4crmw3hx8415xzxrdazc1z9z8q4aqwy-asn1-parse-lib-asn1-parse-0.9.5-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/s8cl2vxrz0ks0q4244g03l1l4v406l8i-asn1-types-lib-asn1-types-0.3.4-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/6fsa0psiib44q87ax8fmhl7i0rps46yq-assoc-lib-assoc-1.0.2-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/1wa9rg1ibngh3673fpnmmj0852kb4q4j-async-lib-async-2.2.3-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/9aqwpixqwvd78jwnxb1ly0l5rxdzwyba-async-lib-async-2.2.3-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/7fviw0s7ng9c6m8ydjhsnidcnm0iv4yz-attoparsec-lib-attoparsec-0.14.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/nh6jxdwm21yjkvn7argf7a692c5cmklg-base-compat-batteries-lib-base-compat-batteries-0.11.2-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/sdr8zvkd5s5f7y709jwy1gkqnrn5386s-base-compat-batteries-lib-base-compat-batteries-0.11.2-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/hzlbnk54kjyy00ffax976r203hf9f8bs-base-compat-lib-base-compat-0.11.2-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/9rjx2a538iqvykl8jqi59jxbd6pb4dn4-base-orphans-lib-base-orphans-0.8.4-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/1cg6h4ngd4sr13piz30aksdwl70apxcy-base16-bytestring-lib-base16-bytestring-0.1.1.7-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/fjn61s8jm9shfq78x2fdwibfb757y1bd-base16-bytestring-lib-base16-bytestring-1.0.1.0-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/05z56ncnd1l16nhs3sbyn4d66pah6w0i-base64-bytestring-lib-base64-bytestring-1.2.0.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/p1lfg2cydkn2aklbbf9w92sw0yjjd232-base64-bytestring-lib-base64-bytestring-1.2.0.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/10c007ma9mhsx0j1sbd68gb4gwr87vbf-basement-lib-basement-0.0.12-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/33fk4myda1scz692pff29wqx9chcvr4d-bifunctors-lib-bifunctors-5.5.11-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/v5yv0mqlhfh90kj731ly8xyzwmcfvhgj-binary-lib-binary-0.8.8.0-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/nr2iql3ffkr3daxip5h6lqss5q1g958q-blaze-builder-lib-blaze-builder-0.4.2.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/gy72b56nh3lsg4jys9azmw38ll22hwh6-byteorder-lib-byteorder-1.0.4-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/hzj16ab3l39vaip66vxn7abkn5iy8lvp-bytestring-lib-bytestring-0.10.12.0.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/vg5sf8ry211idcyfh3h9nzvbbrac1pnw-case-insensitive-lib-case-insensitive-1.2.1.0-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/llrbs0h6spxmkkcr35z49z9v8vlyvmj1-cborg-lib-cborg-0.2.5.0-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/0nnkajwv13y9r2sd7n4c73847b6sgawh-cereal-lib-cereal-0.5.8.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/phn092v12b3biy75vjbq690zxwa5m0lb-clock-lib-clock-0.8.2-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/g3npymljmv21kirldql00npmzwmsllqa-colour-lib-colour-2.3.5-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/5ygn3c4kj3xjrbaqma5b9xa0yj3kkrd7-colour-lib-colour-2.3.5-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/l3i73arxpak38zga89zarl80v59vh6nc-comonad-lib-comonad-5.0.8-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/7bd9ghhy3pmq7llvyvlk95a044gjq9sv-conduit-lib-conduit-1.3.4.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/sj7w0c7drghj96v147v9wh8spa3b0hsi-connection-lib-connection-0.3.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/hby2pdhm0l705xw27rqmjs9zpddakr1d-containers-lib-containers-0.6.4.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/jfbbrl47xb8scpwpv3jbxv0gvmvr4pna-containers-lib-containers-0.6.4.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/69dy0h7m68ac8i1m7139rjl4whr687di-contravariant-lib-contravariant-1.5.3-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/z3cn2n0sc5bsbhl01vkg7sanz4ivf8xf-cookie-lib-cookie-0.4.5-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/3vnrj8wbpzg3lblcz5y7sr4bxxa54lvf-cryptohash-md5-lib-cryptohash-md5-0.11.100.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/31cagalplrcdmswa8j7jf28p6mff2lca-cryptohash-sha1-lib-cryptohash-sha1-0.11.100.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/f7b1kjnsc2sxjm467nkzhcmypqrlmx4q-cryptohash-sha256-lib-cryptohash-sha256-0.11.102.0-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/s3r7q2j5kyxcs1ry5dp564zg2s05893d-cryptohash-sha256-lib-cryptohash-sha256-0.11.102.0-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/2pyshhpwk271mhvv92n0ymgy80v9h29p-cryptohash-sha256-lib-cryptohash-sha256-0.11.102.0-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/mgnj7p2khxrzsz5nh2iksybc6gk6781v-cryptohash-sha512-lib-cryptohash-sha512-0.11.100.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/6gwr7nybnmjbm3pggbx2vnwgs4d99yy6-cryptonite-lib-cryptonite-0.29-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/7fg7g6845h9jl4r6rpfn63l4krh7b61b-data-default-class-lib-data-default-class-0.1.2.0-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/kmkk5pmi3da7j8vw38z2lhmhyq0q1f4w-data-fix-lib-data-fix-0.3.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/5661377xrhdrwijmrvl1davra6kl2wp1-default-Setup-setup.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/ybj7hacpnxjkir2h939mqnvm69w7gq3b-default-Setup-setup.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/gkiygqz6m38qg5kwsnsv52la3kw1010l-deriving-compat-lib-deriving-compat-0.5.10-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/cjldrf7nsvn0g3j6yj4fvbj3z7dw0i87-deriving-compat-lib-deriving-compat-0.5.10-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/gbrmp8la8ndamz9drg4jpnalflr0bbsx-directory-1.3.6.0-setup.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/18zmm9fsrcraa455wyl3aq9lwyfgzcs0-directory-lib-directory-1.3.6.0-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/7wv1j6zw090027shl6445xqb6n9k45i5-directory-lib-directory-1.3.6.0-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/ms912rbx18bbcq0gac598n286wilw24y-distributive-lib-distributive-0.6.2.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/h6v16rnhy9cwlf1p3kzzn7m4443h1i9r-distributive-lib-distributive-0.6.2.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/xh4jhh843kl50f9iy243y6i2z1m7ijla-dlist-lib-dlist-1.0-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/m2yy036bb75y5ybczv15vj4i5rjdiv35-dlist-lib-dlist-1.0-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/hf384xz3as3ldkad8mf4jwk7gfz8qxwm-echo-lib-echo-0.1.4-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/llr7id2yagqd9y2lsg9qx8r3fkxc0apj-echo-lib-echo-0.1.4-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/mdr7ymd16pz8id0p6hf50gv92wcjbch9-ed25519-lib-ed25519-0.0.5.0-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/wg3n3g7bi9b30j93fq814szawdsxal4b-ed25519-lib-ed25519-0.0.5.0-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/8nim1dq0gkk34h8a6nby1db3azkhlszj-edit-distance-lib-edit-distance-0.2.2.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/gan7qv11facz7sq25wwlv10gslb8ksmz-edit-distance-lib-edit-distance-0.2.2.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/pw411y81szf0mfh7m3yrb4ssar1czj0l-filepath-lib-filepath-1.4.2.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/0gh78jkrcqvl5dzaldn1hmwkkcsl9mfh-filepath-lib-filepath-1.4.2.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/iybi4skmynphclfcajrrihnzf0pgwn1m-free-lib-free-5.1.7-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/lckrwf74jzzx6i29x397m2632zizp9jl-free-lib-free-5.1.7-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/yfv9lc8pd4ffsv793mxb14500gw11nyd-gitrev-lib-gitrev-1.3.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/m3b2cmkpifgxly7szz9s5gxiw4wf8r8p-gitrev-lib-gitrev-1.3.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/dz3mr13g6gqhp3wf3s980z30i48sd08a-hackage-db-lib-hackage-db-2.1.0.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/j2wqyc0lzf2d3rdx1kq5ska4q21rrlyd-hackage-db-lib-hackage-db-2.1.0.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/s2cxin0241ax6929rps18pr15wpva93l-hackage-security-lib-hackage-security-0.6.0.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/ij7s03kdcmmsfnazdi0nn8vdb046x7s7-hackage-security-lib-hackage-security-0.6.0.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/kdswprxgm0rv9bq1rpr2swa79sx84q83-half-lib-half-0.3.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/ryhljj6gksy1yfcsaygiaqi2m4ivrka3-half-lib-half-0.3.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/a0ll043r1xkz4ppr3x5pbkahblbjvaw7-happy-exe-happy-1.20.0-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/60mvmkmxqfql7vvdk6y5k4rbhcvfazgp-happy-exe-happy-1.20.0-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/9pxmy79anlf15d266iqhrv9x3dvdvz5h-hashable-lib-hashable-1.3.2.0-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/jln1p10l3wm77pil0yhz6pp38bgzjvsc-hashable-lib-hashable-1.3.2.0-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/az6j5kx02wzvgpyh96565gzhfk229i2k-hashing-lib-hashing-0.1.0.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/4bq8z963mbdl50r879v00q4pkj1hnzfy-hashing-lib-hashing-0.1.0.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/jvp7bl6vhzzz64wzlyqgqj3cq0agz3il-haskell-lexer-lib-haskell-lexer-1.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/w2rgv6zwxvqaqvj5388azwnhyk90rp26-haskell-lexer-lib-haskell-lexer-1.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/q9xsafdjzd67khnmx7pqlmkpc0jap23b-hnix-store-core-lib-hnix-store-core-0.4.3.0-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/zx8k3q40zf5yqqnvbx9kvw4rwa759rqc-hnix-store-core-lib-hnix-store-core-0.4.3.0-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/rizvglc3w2wmjcnmn842l36zf5fmmkgr-hnix-store-remote-lib-hnix-store-remote-0.4.3.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/hld278qkh7z6vy7yhlg86q5vw9wq4bza-hnix-store-remote-lib-hnix-store-remote-0.4.3.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/b168hwdlkw8lp9w3wdl56pk03qafia70-hpack-lib-hpack-0.34.4-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/h52vld7yh5fyyh2df097s4sphdlbbjcl-hpack-lib-hpack-0.34.4-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/dl8bz8ia0296smc8i3103yw9xf7p654h-hsc2hs-exe-hsc2hs-0.68.7-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/sjprmhhk8ragrg8mihnljx7hk7vvqxlv-hsc2hs-exe-hsc2hs-0.68.7-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/39j3l5k4lwrfnm295qf9cp3raxqv1xbg-http-client-tls-lib-http-client-tls-0.3.5.3-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/5cafmpmfan42if6sc84wyrw4bcbk8xlb-http-client-tls-lib-http-client-tls-0.3.5.3-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/4ywvv28fzr02ihrjzx83djygrwy1a0hz-indexed-traversable-instances-lib-indexed-traversable-instances-0.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/2g79w0jnrz84vs8knmif0d52wip3lrpx-indexed-traversable-instances-lib-indexed-traversable-instances-0.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/f0glnvixf9ga1q4jz7zsl5hvayd9kx9x-indexed-traversable-lib-indexed-traversable-0.1.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/phf9k37w6s0hnz94kbwh5yk2rd1ack3m-indexed-traversable-lib-indexed-traversable-0.1.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/rdrpi4dh546g3yg93p8367367ylmq3r0-integer-logarithms-lib-integer-logarithms-1.0.3.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/9hqp3ghww65yw54snnbymgccwdvfw2qk-integer-logarithms-lib-integer-logarithms-1.0.3.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/4348s09mn117jjkvafvirdnh377ydq4c-iproute-lib-iproute-1.7.11-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/h7j4mvkzg63mn195m2mwqnmjmssv70i6-iproute-lib-iproute-1.7.11-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/3n63k3rhgn43lyxpm8h073jg3kjkswkp-lens-family-core-lib-lens-family-core-2.1.0-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/iazk9p8b7zvx4qyk9jzaj9zgp1x155yf-lens-family-core-lib-lens-family-core-2.1.0-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/c0xfmximxkfv3fdimrc55wg58w1q4gqw-lens-family-lib-lens-family-2.1.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/zwj8h9gs23cwpgfyqhkaraj97hjyv2pm-lens-family-lib-lens-family-2.1.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/5w87nlbmyxn3zz172fc26a1f7qp0qvd9-lens-family-th-lib-lens-family-th-0.5.2.0-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/qgdql86xd9nqpairp9s7rfyfrkm35299-lens-family-th-lib-lens-family-th-0.5.2.0-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/0hfj8sivhzg5nw4vacr920q0awg27hpi-libyaml-lib-libyaml-0.1.2-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/d8mnlns04i8fmm66dcfpa90j5zzbdzs4-libyaml-lib-libyaml-0.1.2-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/lpiazj3jzcmwn7xkrf896il1smqcqana-lifted-base-lib-lifted-base-0.2.3.12-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/z2244vn8d1cwj2js1zlf1v6wkxwihvkh-lifted-base-lib-lifted-base-0.2.3.12-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/mbb1rp0434aw48kcknrk8l1hsd3cjcx9-logict-lib-logict-0.7.0.3-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/vfj00ylngy54yq9w94fvq9r131gmwdg5-logict-lib-logict-0.7.0.3-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/dh5dciqdk449ir3s6djf4drafn5dlj0y-lukko-lib-lukko-0.1.1.3-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/3jhdmidxcwv9iwwnd1jr7d3azpnz8yap-lukko-lib-lukko-0.1.1.3-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/rf8ywvdqcb3jvxl9qiaqrwiw52csjdkv-megaparsec-lib-megaparsec-9.0.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/4p9ah0lpljjzaq8jkxx9riwl6a5chzzr-megaparsec-lib-megaparsec-9.0.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/ck22w3yirsl3saj42pvq6hpxwlakygva-microlens-aeson-lib-microlens-aeson-2.3.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/b4yyry4li156dzjgd4gkr6nijk43mda8-microlens-aeson-lib-microlens-aeson-2.3.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/0ghxqmj9yylzkvin6scw8p26wcmw26zb-microlens-lib-microlens-0.4.12.0-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/4rdxkagjxr0bm2hy54wx3xbj06nrgnb2-microlens-lib-microlens-0.4.12.0-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/681kh6vmncv4jh9fwmrd4z07w45k268x-mime-types-lib-mime-types-0.1.0.9-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/i97cx2qm1ywggnr7jysamvkj46ya3a8d-mime-types-lib-mime-types-0.1.0.9-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/66dqd3gbj7kkr57i94l9q09rw7jhcgf7-monad-control-lib-monad-control-1.0.2.3-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/1nsvsc7an728j5b453hsnzm3sj0b71fk-monad-control-lib-monad-control-1.0.2.3-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/j31zi75q4gk7abkqg6m350rdlawq6qw0-monadlist-lib-monadlist-0.0.2-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/s6bbhdaz8ngxa9qn28pp7ic3qnaniqg0-monadlist-lib-monadlist-0.0.2-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/0n85nbd5dkjzbifbyb5jcllrwmxbx4fz-mono-traversable-lib-mono-traversable-1.0.15.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/ypa2qax7ss7nzvcyx3i3d7l866qq6j3r-mono-traversable-lib-mono-traversable-1.0.15.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/gg2k1sngi3hmr85gyhk3hhngcfp2ziff-mtl-lib-mtl-2.2.2-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/s8y1d13vnfviz2d09cxgghw0b5bb7mgz-mtl-lib-mtl-2.2.2-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/0bh76ijdfgnp5b3cji9q08ds7qla1mz5-neat-interpolation-lib-neat-interpolation-0.5.1.2-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/g5w16qni50rqv1lrli1pmb19q5n6ip90-neat-interpolation-lib-neat-interpolation-0.5.1.2-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/9h76r7xrcs8v8shvgfrgjbrf46mslb3z-network-3.1.2.1-setup.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/ll0xwilfjvjp0pfv17c3b3w1gp3mw0ry-network-lib-network-3.1.2.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/r6zndf3xxl2m0npyh8xw7x0rgqnb8mpi-network-lib-network-3.1.2.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/hmylcmcqr8kgw4cxdcys51rjnm64880d-network-uri-lib-network-uri-2.6.4.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/w07h8anbif1p0x5ig462dci1fd9xf6ag-network-uri-lib-network-uri-2.6.4.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/cw9lalmmsv1x32bd3z4z26slhwzrcb3z-network-uri-lib-network-uri-2.6.4.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/w876m16kvs0zhnnmx32s6qjpr74cf3fx-network-uri-lib-network-uri-2.6.4.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/qmymx8abpfb164z66ciqvs3v0lik11qb-nix-derivation-lib-nix-derivation-1.1.2-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/r0k7rm5nlx6plg75qhv1qimpayhfv275-nix-derivation-lib-nix-derivation-1.1.2-ghc-8.10.5-env.drv' failed to build
+building '/nix/store/7nxfhlkx87gfwlcj0yx3pkw2w0dmgrxd-nix-prefetch-git.drv'...
+error: 1 dependencies of derivation '/nix/store/722pypj7x474hsadg9a7g4vrgvh2hl9l-parsec-lib-parsec-3.1.14.0-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/mg1w200ankfsd7mxiqwbix31laqml5dr-parsec-lib-parsec-3.1.14.0-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/qi1m97r3gz7mnqpsj9x785qcr3yaqj3q-parser-combinators-lib-parser-combinators-1.3.0-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/3riqrjjbflhsd88y92q79krjdddg6lyw-parser-combinators-lib-parser-combinators-1.3.0-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/f2f0finsl1j8zdqx27l9y45s00rb1ap4-pretty-show-lib-pretty-show-1.10-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/cz6j9j08vqkpl9dx49q12d4pp5w6ynnj-pretty-show-lib-pretty-show-1.10-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/vf32a9sq7hsq1inmdl3wp1z0nqkvkjvc-process-1.6.9.0-setup.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/wpakvgnda3fzrasd09n7ip1v0bqvwr47-process-lib-process-1.6.9.0-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/n793mvlbpyjrkygp656lw3qb1l9wvhh0-process-lib-process-1.6.9.0-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/rb5nbq0zbgn66axgnpkfi2yyhgcmsfbl-profunctors-lib-profunctors-5.6.2-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/w9aymkrih6czfxzs67hnhm4hh9abn8x4-profunctors-lib-profunctors-5.6.2-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/28vhqrndyizy978l9mid1sdjdhsq85d4-random-lib-random-1.2.0-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/bf69pklsd9d435mv18r5mx6zwvy3q2i7-random-lib-random-1.2.0-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/m0ssb8ssihkixvdzmna5drxxww7mgfax-ref-tf-lib-ref-tf-0.5-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/ishs0g16pdn2rv1ncqkzhhlrmdzz1xyh-ref-tf-lib-ref-tf-0.5-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/qp4kc7yws9v7hmf9vny0hsblm7n3fp8l-regex-base-lib-regex-base-0.94.0.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/k1jz5ai4wx0n0agkgiyzk1mcpanw3rmw-regex-base-lib-regex-base-0.94.0.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/77v0p1pwal19mfnyziga9r1aq99qq4w1-regex-tdfa-lib-regex-tdfa-1.3.1.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/hk9m7j8gr54n7dvwq4n877b5ppn6vak7-regex-tdfa-lib-regex-tdfa-1.3.1.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/kzb07ig5s3fsh4f6gjkvgz3ijg06559d-relude-lib-relude-1.0.0.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/gk441vbkd3mm1m2vkcmp5n0s7q2kdjiy-relude-lib-relude-1.0.0.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/pjmpw8cxgicvfyxfr83vg9h9lg7pbksw-resourcet-lib-resourcet-1.2.4.2-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/w5cvsni004s2zy5cmjb3kjfxpsrn419c-resourcet-lib-resourcet-1.2.4.2-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/6y5fp789s8y6yb4pg3jlv6ni05aj6jvy-saltine-lib-saltine-0.2.0.0-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/iijwdxq89n0kvgz6wqnx9fnzs6gvbcg2-saltine-lib-saltine-0.2.0.0-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/xv0y92a3fg6pl7m87lilsqszk15hfamr-semialign-lib-semialign-1.2-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/4siv9pphx9lb1skl4yjmc52wn3w5p6h9-semialign-lib-semialign-1.2-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/jcfgsl1g00p34n7g013gbym6506fxj0z-semigroupoids-lib-semigroupoids-5.3.5-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/30viynbhylw64xqnx3gsxajs7q1sh0yh-semigroupoids-lib-semigroupoids-5.3.5-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/j8y5c382r68vz2rpyb2widapac41pqkg-serialise-lib-serialise-0.2.3.0-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/5d67ddj23yhfixgrfxikc47ypi407qkv-serialise-lib-serialise-0.2.3.0-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/xsm558lv6hq8gaa8nxr31p9wli2kjgji-socks-lib-socks-0.6.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/r4vsf57fxya6kfl95k3cv0vk1zfcy3ji-socks-lib-socks-0.6.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/z2690fcqr0cj6ghsn5qcfdfl3c00lb68-some-lib-some-1.0.3-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/sz907h8yqwia10zxfpwq6j9kvmclqf31-some-lib-some-1.0.3-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/1qayj5ki56jqrjqvfy60i143ya8hfjaf-split-lib-split-0.2.3.4-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/159qf3lv05d2j5b2q850r3hn1sm5ns73-split-lib-split-0.2.3.4-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/8539p4c0j3ib0la2640qbwapgdfqvkbf-splitmix-lib-splitmix-0.1.0.3-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/s1cbw33bp6pgifnyq35r2212yrk61s4c-splitmix-lib-splitmix-0.1.0.3-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/dcw7k1lpcgn9zx7a47y2nbr1zz9cvdh6-stm-lib-stm-2.5.0.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/px9nnsiy7wvjjdj297r7wjs60h0773xc-stm-lib-stm-2.5.0.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/50mazdr1nl2wrnxsqg4dz1nc662scd8c-stm-lib-stm-2.5.0.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/irrrn7x55k3wkfa6d9lialf84zy0h4ca-stm-lib-stm-2.5.0.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/7kwn7dqcfqwqlp5b6ycdgvk7sn3541cc-streaming-commons-lib-streaming-commons-0.2.2.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/j46k548i718lamjkbrwhba13s16c1w5p-streaming-commons-lib-streaming-commons-0.2.2.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/6bjmm1pyj4b8cmns69ir5ph1w4rblajj-strict-lib-strict-0.4.0.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/rw5rvqg0xjivdxqq1zgk3zjp463y2m1d-strict-lib-strict-0.4.0.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/i42ay6jql9zy0q538wnhwjb7y2qg5ag6-syb-lib-syb-0.7.2.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/yj7fbl89lnspjfjnrdbgnf1apzcm5v45-syb-lib-syb-0.7.2.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/f3yg9526p6qa4rdqza8qaxbgm6xlq510-tagged-lib-tagged-0.8.6.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/3si6cmca2mlcrp738yw505y6kky74mhh-tagged-lib-tagged-0.8.6.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/8ld52g432swfd1fzackbkj9gdnsqqkfs-tar-lib-tar-0.5.1.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/iv8nl8p67gm0q8ybhybayn061aswf7dw-tar-lib-tar-0.5.1.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/axf80dhwhs4hj3564h9hhv9c60r6mdzi-tar-lib-tar-0.5.1.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/pp8qz89whaygd9pkkp84v082a5j60pg4-tar-lib-tar-0.5.1.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/qgm4csgj80gbiyvcgasr8rdci5ns1v1a-text-lib-text-1.2.4.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/5l6vyk8z529wbznq1jcyvmzxdl7va1la-text-lib-text-1.2.4.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/8n48fjyc1lll9jsdnawsdivga3abzn6r-text-metrics-lib-text-metrics-0.3.0-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/lga4aqf5b970wgvg1bzq1mbpx8vgkdrw-text-metrics-lib-text-metrics-0.3.0-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/dfgvg3mxxbm9hr6dj4f0yiddq9br1n0n-th-abstraction-lib-th-abstraction-0.4.2.0-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/zigdbr0535aip4v3nn3zir4qf13vx9bz-th-abstraction-lib-th-abstraction-0.4.2.0-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/3wg1p49iibh56pqdping5wq6xhmdjvv8-th-compat-lib-th-compat-0.1.2-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/ilzgxmhpky0zwpfvcpbna3ccxvpr2lrz-th-compat-lib-th-compat-0.1.2-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/92imghx6x2rvy6hs4338f8zpyq5y0zdv-th-lift-instances-lib-th-lift-instances-0.1.18-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/7q6k8ra5rd8a0p5rjkrpx37mihmbx9zh-th-lift-instances-lib-th-lift-instances-0.1.18-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/7jjc5cnwyjj9bwc3jwzxh6qxx5w1q6y9-th-lift-lib-th-lift-0.8.2-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/xb806if9x3pawrycisiazzpn35yyhqc5-th-lift-lib-th-lift-0.8.2-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/5mkbyjn9d7a66qcy15fkf4an2r47vs9p-these-lib-these-1.1.1.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/fhn0b2mf5lpj3bklwn8dfmll7y34d5xi-these-lib-these-1.1.1.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/v7p34m8w329vcn9c1lcag8wap0hnfzys-time-1.9.3-setup.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/37w83lamzfzc241y8j5kwmh5hb6r7a51-time-compat-lib-time-compat-1.9.6-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/15mzcrkf47jyzk6v4bfij5r22cryfzg2-time-compat-lib-time-compat-1.9.6-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/qfnh38ms7fj4jsw436dwc3djqvz3rxlp-time-lib-time-1.9.3-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/j3hfj61crrlmll18xrww4qj99wm33kzr-time-lib-time-1.9.3-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/6559zk91z6cbkmxj2vaa9xd4lscmfmzs-tls-lib-tls-1.5.5-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/j6x9g9b1gs80827fdmgnlkib3yvzz1mm-tls-lib-tls-1.5.5-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/frmjbq6nlc3gcyz270ljxm3md35l6ysb-transformers-base-lib-transformers-base-0.4.5.2-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/xkkivsrq9bbi74j507ql7ys60jsqy947-transformers-base-lib-transformers-base-0.4.5.2-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/33xpx5a7fgkyrri1vw8w8hk7s78hj20s-transformers-compat-lib-transformers-compat-0.6.6-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/wryn77w2dgzckm4sa8vyqa1fdx3yid3a-transformers-compat-lib-transformers-compat-0.6.6-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/l26y73yyb4mm7s2m36nk30r2ynvlfhjl-transformers-lib-transformers-0.5.6.2-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/bc17skdl7wwzck3vzbh172y7dfij49yq-transformers-lib-transformers-0.5.6.2-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/rw75rhz1srr3n24w31bx2vdw6l1gq713-unix-2.7.2.2-setup.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/7bsg85bf3x1qsv27i7dxqa69myn0pmk8-unix-lib-unix-2.7.2.2-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/n5vx89yyrglsc7aax8kip9v5a52m6pdq-unix-lib-unix-2.7.2.2-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/pk6hd7slhpxngz0cy8hcbyqygn3818x6-unliftio-core-lib-unliftio-core-0.2.0.1-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/s2w436lji16n99m0jv45x2gx4yxnfzm0-unliftio-core-lib-unliftio-core-0.2.0.1-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/1qmdyybk7a72yp9ndlwilw4y3x8zfd64-utf8-string-lib-utf8-string-1.0.2-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/xnxmwdw4b4flg5qyddn5c08znk2r4raa-utf8-string-lib-utf8-string-1.0.2-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/0pwscyyh8fj5f6h63x726xnv63ax5x6b-uuid-types-lib-uuid-types-1.0.5-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/qflx9vi6glk2m8jv2w1wnpjzkd3zmrkg-uuid-types-lib-uuid-types-1.0.5-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/2ccmqlacnsbbn9hns4vx6ilj2yl2k5rp-vector-algorithms-lib-vector-algorithms-0.8.0.4-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/5ix7kv4ln8pv40ghzmncvhppbvrycx6f-vector-algorithms-lib-vector-algorithms-0.8.0.4-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/xya6krqaxbvf3jmss5nx7gxc99v0mria-x509-lib-x509-1.7.5-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/dxn146m07jragz1fzd7fky0z5l6hn9l2-x509-lib-x509-1.7.5-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/2ahsz0cqmxyhcbkgilq4z24ivn64fns3-x509-store-lib-x509-store-1.6.7-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/z6kvijlz7qf2lybf7i3n1k7hccvxxqfi-x509-store-lib-x509-store-1.6.7-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/w6jrdfkw6dsmkqzjnb6mkd97y2j6kqz6-x509-system-lib-x509-system-1.6.6-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/h8h9mjs5izc63z52rggfj1x3vynfs6g1-x509-system-lib-x509-system-1.6.6-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/48wxx7034rnvlmv6wrp8a3xyl6wg76mv-x509-validation-lib-x509-validation-1.6.11-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/9fhbrfsjriygma9brq417jlmkdvq54zy-x509-validation-lib-x509-validation-1.6.11-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/kyds4rknddj673d0vz330f4g88nf2lcj-xml-lib-xml-1.3.14-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/agc9rjb4xzpb47i5gz8ssm671vg3fqmd-xml-lib-xml-1.3.14-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/hihwxhf875kv0797cnizsp19lwp0snwn-yaml-lib-yaml-0.11.5.0-config.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/8pwqli2s97s40fjrqpi63valgqx3fxp1-yaml-lib-yaml-0.11.5.0-ghc-8.10.5-env.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/wvm8r28dxdylqrb3hmwg5lq3f31mlwl3-cabal-install-exe-cabal-3.4.0.0.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/yf79lkrn988y834mr9sfm8v7qiycg3qk-hpack-exe-hpack-0.34.4.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/whwgvhna30bcxqvy6ybgq45kyh5bmgm4-nix-tools-exe-cabal-name-0.1.0.0.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/xvyicrvc0f4k64r70pmjv8sbb54hmyik-nix-tools-exe-cabal-to-nix-0.1.0.0.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/b9j7g6ii3gl173y209mci7lmxglnhw3v-nix-tools-exe-hackage-to-nix-0.1.0.0.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/h3dn28q6vjxxp58psszlpsrxmbf5sikw-nix-tools-exe-hashes-to-nix-0.1.0.0.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/jw5djj91gpqszsj72pzijsvsl58h673b-nix-tools-exe-lts-to-nix-0.1.0.0.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/srwwac95jb9cdmj979zm30gs3xx3s7pr-nix-tools-exe-plan-to-nix-0.1.0.0.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/ahpw1nihrlv6726smq297fd65jjgmb5x-nix-tools-exe-stack-repos-0.1.0.0.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/kqswnizzrbpbav3zr9wwa0yjlipzj4wz-nix-tools-exe-stack-to-nix-0.1.0.0.drv' failed to build
+error: 1 dependencies of derivation '/nix/store/sxww9hs8ndyn35chiq61s8n548ma08gy-nix-tools-exe-truncate-index-0.1.0.0.drv' failed to build
+error:
+       … while calling the 'derivationStrict' builtin
+         at <nix/derivation-internal.nix>:9:12:
+            8|
+            9|   strict = derivationStrict drvAttrs;
+             |            ^
+           10|
+
+       … while evaluating derivation 'cardano-node-alonzo-purple'
+         whose name attribute is located at /nix/store/dfwaqigcahfjb9j2f0yjmkyxlk1shxdi-source/pkgs/stdenv/generic/make-derivation.nix:201:11
+
+       … while evaluating attribute 'text' of derivation 'cardano-node-alonzo-purple'
+         at /nix/store/dfwaqigcahfjb9j2f0yjmkyxlk1shxdi-source/pkgs/build-support/trivial-builders.nix:119:17:
+          118|     runCommand name
+          119|       { inherit text executable;
+             |                 ^
+          120|         passAsFile = [ "text" ];
+
+       … while evaluating the option `services.cardano-node.script':
+
+       … while evaluating the option `services.cardano-node.executable':
+
+       … while evaluating the option `services.cardano-node.package':
+
+       (stack trace truncated; use '--show-trace' to show the full, detailed trace)
+
+       error: 1 dependencies of derivation '/nix/store/ws9syj50wdb9a061q2nap3v4715l0alz-haskell-project-plan-to-nix-pkgs.drv' failed to build
+ubuntu@ip-172-31-19-243:/data/cardano-node$
