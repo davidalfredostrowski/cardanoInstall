@@ -302,3 +302,20 @@ https://forum.cardano.org/t/aeson-exception-error-in-missing-required-field-eith
 
 
 
+
+
+
+ubuntu@ip-172-31-36-78:~/cardano-src/src/cardano-node$ cardano-node run --config  /home/ubuntu/cardano-src/src/cardano-node/topology.json --host-addr 35.93.154.4 --port 3001
+AesonException "Error in $: Missing required field, either ByronGenesisFile or GenesisFile"
+
+cardano-node: Aeson exception:
+Error in $: Missing required field, either ByronGenesisFile or GenesisFileubuntu@ip-172-31-36-78:~/cardano-src/src/cardano-node$ cardano-node run --config  /home/ubuntu/cardano-src/src/cardano-node/topology.json --host-addr 35.93.154.4 --port 3001
+Broadcast message from root@ip-172-31-36-78 (Thu 2024-07-18 19:00:07 UTC):
+
+The system will power off now!
+
+
+
+
+
+
