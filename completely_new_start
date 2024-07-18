@@ -2,3 +2,185 @@ https://developers.cardano.org/docs/get-started/installing-cardano-node/
 
 
 https://developers.cardano.org/docs/get-started/running-cardano/
+
+
+c5.large 
+with a 200G root volume  = this gets me thus far....
+until the cabal build all
+
+
+
+
+
+
+
+
+ubuntu@ip-172-31-36-78:~/cardano-src/cardano-node$ history
+    1  ls
+    2  sudo apt-get update -y && sudo apt-get upgrade -y
+    3  sudo apt-get install automake build-essential pkg-config libffi-dev libgmp-dev libssl-dev
+    4  sudo apt-get install libtinfo-dev libsystemd-dev zlib1g-dev make g++
+    5  sudo apt-get install  tmux git jq wget
+    6  cat <<EOF | sudo tee /etc/apt/sources.list
+    7  deb http://archive.ubuntu.com/ubuntu/ focal main universe multiverse restricted
+    8  deb http://security.ubuntu.com/ubuntu/ focal-security main universe multiverse restricted
+    9  deb http://archive.ubuntu.com/ubuntu/ focal-updates main universe multiverse restricted
+   10  deb http://archive.ubuntu.com/ubuntu/ focal-backports main universe multiverse restricted
+   11  deb-src http://archive.ubuntu.com/ubuntu/ focal main universe multiverse restricted
+   12  deb-src http://security.ubuntu.com/ubuntu/ focal-security main universe multiverse restricted
+   13  deb-src http://archive.ubuntu.com/ubuntu/ focal-updates main universe multiverse restricted
+   14  deb-src http://archive.ubuntu.com/ubuntu/ focal-backports main universe multiverse restricted
+   15  EOF
+   16  sudo dpkg --add-architecture i386
+   17  sudo apt-get update
+   18  sudo apt-get install libncurses5 libncurses5:i386
+   19  sudo apt-get install libncursesw5 libtool autoconf -y
+   20  curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
+   21  ghcup --version
+   22  ls
+   23  ghcup --version
+   24  ghcup install ghc 8.10.7
+   25  ghcup set ghc 8.10.7
+   26  ghcup install cabal 3.6.2.0
+   27  ghcup set cabal 3.6.2.0
+   28  ghc --version
+   29  cabal --version
+   30  mkdir cardano-src
+   31  cd cardano-src/
+   32  git clone https://github.com/IntersectMBO/libsodium
+   33  cd libsodium
+   34  git checkout dbb48cc
+   35  ./autogen.sh
+   36  ./configure
+   37  make
+   38  sudo make install
+   39  history
+   40  export LD_LIBRARY_PATH="/usr/local/lib:$LD_LIBRARY_PATH"
+   41  export PKG_CONFIG_PATH="/usr/local/lib/pkgconfig:$PKG_CONFIG_PATH"
+   42  cd ..
+   43  ls
+   44  git clone https://github.com/bitcoin-core/secp256k1
+   45  cd secp256k1
+   46  git checkout ac83be33
+   47  ./autogen.sh
+   48  ./configure --enable-module-schnorrsig --enable-experimental
+   49  make
+   50  make check
+   51  sudo make install
+   52  sudo ldconfig
+   53  cd ..
+   54  ls
+   55  pwd
+   56  git clone https://github.com/IntersectMBO/cardano-node.git
+   57  ls
+   58  cd cardano-node/
+   59  git fetch --all --recurse-submodules --tags
+   60  git checkout $(curl -s https://api.github.com/repos/IntersectMBO/cardano-node/releases/latest | jq -r .tag_name)
+   61  cabal configure --with-compiler=ghc-8.10.7
+   62  sudo apt install llvm-9
+   63  sudo apt install clang-9 libnuma-dev
+   64  sudo ln -s /usr/bin/llvm-config-9 /usr/bin/llvm-config
+   65  sudo ln -s /usr/bin/opt-9 /usr/bin/opt
+   66  sudo ln -s /usr/bin/llc-9 /usr/bin/llc
+   67  sudo ln -s /usr/bin/clang-9 /usr/bin/clang
+   68  cabal update
+   69  cabal build all
+   70  cd ..
+   71  cabal update
+   72  cabal build all
+   73  cd cardano-node
+   74  cabal build all
+   75  cardano-node --version
+   76  history
+   77  cd ..
+   78  source .bashrc
+   79  source /.bashrc
+   80  cd libsodium/
+   81  source /.bashrc
+   82  echo $LD_LIBRARY_PATH
+   83  echo $PKG_CONFIG_PATH
+   84  JLS
+   85  ls
+   86  cd ..
+   87  ls
+   88  cd cardano-node/
+   89  cabal update
+   90  cabal build all
+   91  cabal build all --minimize-conflict-set
+   92  cabal build all --constraint `unix >=2.8.0 && <2.9`
+   93  cabal build all
+   94  cabal build all --minimize-conflict-set
+   95  cabal build all --allow-newer
+   96  ls
+   97  cd ..
+   98  ls
+   99  cd ..
+  100  cabal --version
+  101  history
+  102  cabal updaste
+  103  cabal update
+  104  cabal build all
+  105  ls
+  106  cd cardano-src
+  107  ls
+  108  cd cardano-node/
+  109  cabal update
+  110  cabal build all
+  111  cabal configure --with-compiler=ghc-8.10.7
+  112  history
+ubuntu@ip-172-31-36-78:~/cardano-src/cardano-node$
+
+
+
+
+
+
+
+
+cabal build all 
+
+creates: 
+
+ubuntu@ip-172-31-36-78:~/cardano-src/cardano-node$ cabal build all
+Resolving dependencies...
+cabal: Could not resolve dependencies:
+[__0] trying: cardano-node-9.0.0 (user goal)
+[__1] trying: ouroboros-consensus-cardano-0.18.0.0 (dependency of
+cardano-node)
+[__2] trying: cardano-ledger-conway-test-1.2.1.7 (dependency of
+ouroboros-consensus-cardano)
+[__3] trying: plutus-ledger-api-1.30.0.0 (dependency of
+cardano-ledger-conway-test)
+[__4] trying: plutus-core-1.30.0.0 (dependency of plutus-ledger-api)
+[__5] trying: cardano-ledger-babbage-test-1.2.0.3 (dependency of
+ouroboros-consensus-cardano)
+[__6] trying: cardano-ledger-alonzo-test-1.2.1.2 (dependency of
+ouroboros-consensus-cardano)
+[__7] trying: cardano-ledger-mary-1.6.1.0 (dependency of
+ouroboros-consensus-cardano)
+[__8] next goal: cardano-crypto-class (dependency of cardano-node)
+[__8] rejecting: cardano-crypto-class-2.1.5.0, cardano-crypto-class-2.1.4.0,
+cardano-crypto-class-2.1.3.0, cardano-crypto-class-2.1.2.0 (conflict:
+pkg-config package libblst-any, not found in the pkg-config database)
+[__8] rejecting: cardano-crypto-class-2.1.1.0 (conflict: plutus-core =>
+cardano-crypto-class^>=2.1.2)
+[__8] skipping: cardano-crypto-class-2.1.0.2, cardano-crypto-class-2.1.0.1,
+cardano-crypto-class-2.1.0.0, cardano-crypto-class-2.0.0.1,
+cardano-crypto-class-2.0.0.0.1, cardano-crypto-class-2.0.0 (has the same
+characteristics that caused the previous version to fail: excluded by
+constraint '^>=2.1.2' from 'plutus-core')
+[__8] fail (backjumping, conflict set: cardano-crypto-class, cardano-node,
+plutus-core)
+After searching the rest of the dependency tree exhaustively, these were the
+goals I've had most trouble fulfilling: plutus-ledger-api, plutus-core,
+cardano-ledger-alonzo-test, ouroboros-consensus-cardano, cardano-ledger-mary,
+cardano-ledger-babbage-test, cardano-crypto-class, cardano-node,
+cardano-ledger-conway-test
+Try running with --minimize-conflict-set to improve the error message.
+
+ubuntu@ip-172-31-36-78:~/cardano-src/cardano-node$
+
+
+
+
+
