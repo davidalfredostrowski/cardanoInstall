@@ -181,6 +181,7 @@ Try running with --minimize-conflict-set to improve the error message.
 ubuntu@ip-172-31-36-78:~/cardano-src/cardano-node$
 
 
+# i installed blst and it fixed me to the diff-0-5 error.....
 
 https://forum.cardano.org/t/issue-with-8-7-2-upgrade-cabal-could-not-resolve-dependencies/125289
 
