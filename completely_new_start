@@ -179,11 +179,53 @@ cardano-ledger-conway-test
 Try running with --minimize-conflict-set to improve the error message.
 
 ubuntu@ip-172-31-36-78:~/cardano-src/cardano-node$
+Installing blst
+Find out the correct blst version:
+
+BLST_VERSION=$(curl https://raw.githubusercontent.com/input-output-hk/iohk-nix/master/flake.lock | jq -r '.nodes.blst.original.ref')
+echo "Using blst version: ${BLST_VERSION}"
+Download and install blst so that cardano-base can pick it up (assuming that pkg-config is installed):
+
+: ${BLST_VERSION:='v0.3.11'}
+git clone --depth 1 --branch ${BLST_VERSION} https://github.com/supranational/blst
+cd blst
+./build.sh
+cat > libblst.pc << EOF
+prefix=/usr/local
+exec_prefix=\${prefix}
+libdir=\${exec_prefix}/lib
+includedir=\${prefix}/include
+
+Name: libblst
+Description: Multilingual BLS12-381 signature library
+URL: https://github.com/supranational/blst
+Version: ${BLST_VERSION#v}
+Cflags: -I\${includedir}
+Libs: -L\${libdir} -lblst
+EOF
+sudo cp libblst.pc /usr/local/lib/pkgconfig/
+sudo cp bindings/blst_aux.h bindings/blst.h bindings/blst.hpp  /usr/local/include/
+sudo cp libblst.a /usr/local/lib
+sudo chmod u=rw,go=r /usr/local/{lib/{libblst.a,pkgconfig/libblst.pc},include/{blst.{h,hpp},blst_aux.h}}
 
 
-# i installed blst and it fixed me to the diff-0-5 error.....
+# i installed blst and it fixed me to the diff-0-5 error.....(above)
+
+
 
 https://forum.cardano.org/t/issue-with-8-7-2-upgrade-cabal-could-not-resolve-dependencies/125289
+
+
+
+
+https://forum.cardano.org/t/issue-with-8-7-2-upgrade-cabal-could-not-resolve-dependencies/125289
+
+
+
+
+
+
+
 
 
 
