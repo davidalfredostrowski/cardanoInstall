@@ -201,3 +201,25 @@ https://forum.cardano.org/t/trying-to-build-8-7-2/125900/3
 
 
 
+# try out a new version of the cardano node (earlier)
+171  cabal update
+  172  cabal build all
+  173  git checkout @{100.days.ago}
+  174  cabal update
+  175  cabal build all
+  176  git tag | sort -V
+  177  git tag | sort -V  | more
+  178  git checkout tags/
+  179  pioneer-wave2
+  180  git checkout tags/pioneer-wave2
+  181  cabal update
+  182  cabal build all
+  183  cardano-node --version
+  184  history
+
+
+
+
+
+
+
