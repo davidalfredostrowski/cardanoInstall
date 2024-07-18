@@ -211,7 +211,7 @@ sudo chmod u=rw,go=r /usr/local/{lib/{libblst.a,pkgconfig/libblst.pc},include/{b
 
 # i installed blst and it fixed me to the diff-0-5 error.....(above)
 
-
+https://github.com/input-output-hk/cardano-node-wiki/blob/main/docs/getting-started/install.md#installing-blst
 
 https://forum.cardano.org/t/issue-with-8-7-2-upgrade-cabal-could-not-resolve-dependencies/125289
 
