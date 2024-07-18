@@ -220,6 +220,28 @@ https://forum.cardano.org/t/trying-to-build-8-7-2/125900/3
 
 
 
+  171  cabal update
+  172  cabal build all
+  173  git checkout @{100.days.ago}
+  174  cabal update
+  175  cabal build all
+  176  git tag | sort -V
+  177  git tag | sort -V  | more
+  178  git checkout tags/
+  179  pioneer-wave2
+  180  git checkout tags/pioneer-wave2
+  181  cabal update
+  182  cabal build all
+  183  cardano-node --version
+  184  history
+9.0.0-sancho
+
+
+
+#####    https://github.com/IntersectMBO/cardano-node/tags?after=8.2.1-pre
+
+
+git checkout tags/8.1.1
 
 
 
