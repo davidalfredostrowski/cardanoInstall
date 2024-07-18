@@ -254,3 +254,9 @@ ubuntu@ip-172-31-36-78:~/cardano-src/src/cardano-node$ cardano-node run --config
 AesonException "Error in $: Missing required field, either ByronGenesisFile or GenesisFile"
 
 
+https://forum.cardano.org/t/aeson-exception-error-in-missing-required-field-either-byrongenesisfile/76229
+
+
+
+
+
